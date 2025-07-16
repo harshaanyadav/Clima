@@ -1,54 +1,23 @@
+# Clima – iOS Weather App 🌦️
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+A clean and responsive iOS weather app that displays real-time weather data using the OpenWeatherMap API.
 
-#  Clima
+## 🔧 Features
+- Fetches temperature, humidity, and condition data by city or current location
+- Custom icons and animations for weather conditions
+- Neatly structured UIKit-based layout with Auto Layout
 
-## Our Goal
+## 🛠 Built With
+- Swift
+- UIKit
+- CoreLocation
+- OpenWeatherMap API
 
-It’s time to take our app development skills to the next level. We’re going to introduce you to the wonderful world of Application Programming Interfaces (APIs) to grab live data from the internet. If you’re dreaming of making that Twitter-powered stock trading app then you’re about add some serious tools to your toolbelt!
+## 📦 Project Origin
+Originally based on the Clima app by Angela Yu (App Brewery). This version is modified, improved, and maintained by Harshaan Yadav for learning and portfolio demonstration.
 
+## 📸 Screenshots
+*(Insert screenshots here if available)*
 
-## What you will create
-
-By the end of the module, you will have made a beautiful, dark-mode enabled weather app. You'll be able to check the weather for the current location based on the GPS data from the iPhone as well as by searching for a city manually. 
-
-## What you will learn
-
-* How to create a dark-mode enabled app.
-* How to use vector images as image assets.
-* Learn to use the UITextField to get user input. 
-* Learn about the delegate pattern.
-* Swift protocols and extensions. 
-* Swift guard keyword. 
-* Swift computed properties.
-* Swift closures and completion handlers.
-* Learn to use URLSession to network and make HTTP requests.
-* Parse JSON with the native Encodable and Decodable protocols. 
-* Learn to use Grand Central Dispatch to fetch the main thread.
-* Learn to use Core Location to get the current location from the phone GPS. 
-
-### Condition Codes
-```
-switch conditionID {
-        case 200...232:
-            return "cloud.bolt"
-        case 300...321:
-            return "cloud.drizzle"
-        case 500...531:
-            return "cloud.rain"
-        case 600...622:
-            return "cloud.snow"
-        case 701...781:
-            return "cloud.fog"
-        case 800:
-            return "sun.max"
-        case 801...804:
-            return "cloud.bolt"
-        default:
-            return "cloud"
-        }
-```
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
+## 📄 License
+This project is open for educational and personal portfolio use.
