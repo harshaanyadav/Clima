@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		172DF8B92E2B5E5C0078C4C6 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF8B82E2B5E5C0078C4C6 /* WeatherModel.swift */; };
+		172DF8BB2E2D2B140078C4C6 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DF8BA2E2D2B140078C4C6 /* Secrets.swift */; };
 		177E17D02E2909620097C292 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177E17CF2E2909620097C292 /* WeatherManager.swift */; };
 		177E17D22E2AA96A0097C292 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177E17D12E2AA96A0097C292 /* WeatherData.swift */; };
 		ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B0231BBFAF00365194 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		172DF8B82E2B5E5C0078C4C6 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherModel.swift; path = Clima/WeatherModel.swift; sourceTree = SOURCE_ROOT; };
+		172DF8BA2E2D2B140078C4C6 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Secrets.swift; path = Clima/Secrets.swift; sourceTree = SOURCE_ROOT; };
 		177E17CF2E2909620097C292 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherManager.swift; path = Clima/WeatherManager.swift; sourceTree = SOURCE_ROOT; };
 		177E17D12E2AA96A0097C292 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherData.swift; path = Clima/WeatherData.swift; sourceTree = SOURCE_ROOT; };
 		ADAA27AD231BBFAF00365194 /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +101,7 @@
 				177E17CF2E2909620097C292 /* WeatherManager.swift */,
 				172DF8B82E2B5E5C0078C4C6 /* WeatherModel.swift */,
 				177E17D12E2AA96A0097C292 /* WeatherData.swift */,
+				172DF8BA2E2D2B140078C4C6 /* Secrets.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			files = (
 				ADAA27B5231BBFAF00365194 /* WeatherViewController.swift in Sources */,
 				177E17D22E2AA96A0097C292 /* WeatherData.swift in Sources */,
+				172DF8BB2E2D2B140078C4C6 /* Secrets.swift in Sources */,
 				ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */,
 				177E17D02E2909620097C292 /* WeatherManager.swift in Sources */,
 				172DF8B92E2B5E5C0078C4C6 /* WeatherModel.swift in Sources */,
