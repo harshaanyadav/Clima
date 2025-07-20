@@ -12,7 +12,7 @@ struct WeatherManager {
     // just like waiter in a restaurent
     
     
-    let weatherURL = Secrets.openWeatherMapApiKey
+    let weatherURL = "https://api.openweathermap.org/data/2.5/forecast?&APPID=\(Secrets.openWeatherMapApiKey)&units=metric"
     
     
     func fetchWeather(cityName: String) {
