@@ -10,6 +10,12 @@ struct WeatherItem: Decodable {
 
 struct City: Decodable {
     let name: String
+    let coord: Coord
+}
+
+struct Coord: Decodable {
+    let lat: Double
+    let lon: Double
 }
 
 struct Main: Decodable {
